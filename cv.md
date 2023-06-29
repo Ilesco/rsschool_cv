@@ -8,7 +8,7 @@ ilesco@mail.ru
 
 ### About Myself:
 
-Hi! I am Irina. And I really want to become a web development professional. After graduating from the Belarusian National Technical University with a degree in metallurgy, I worked as an engineer for a long time. But after getting my master's degree in metallurgy, I realised that this field of work did not satisfy me. Then I got interested in graphics and worked as a designer (printing), web designer. Currently, I am continuing to study web-design and web-development, exploring the possibilities of artificial intelligence in creating graphics.
+Hi! I am Irina. And I really want to become a web development professional. After graduating from the Belarusian National Technical University with a degree in metallurgy, I worked as an engineer for a long time. But after getting my master's degree in metallurgy, I realised that this field of work did not satisfy me. Then I got interested in graphics and worked as a designer (printing), web designer. I am currently continuing my studies in web-design and web-development,  and exploring the possibilities of artificial intelligence in the creation of graphics.
 
 ### Skills:
 
