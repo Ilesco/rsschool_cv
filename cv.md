@@ -54,5 +54,4 @@ let sum = 0
 * English - Intermediate/Intermediate
 * Belorussian/Russian - Native speaker
 
-
 [1]:https://learn.javascript.ru/
