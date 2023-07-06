@@ -1,1 +1,1 @@
-https://Ilesco.github.io/rsschool-cv/index.html
+https://Ilesco.github.io/rsschool-cv/cv
