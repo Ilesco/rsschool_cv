@@ -381,7 +381,7 @@ a{
 .box {
 	background: url(./icon/logo_neon2.svg) no-repeat;
 	width: auto;
-	height: 1300px;
+	height: 1350px;
 	flex-shrink: 0;
 	
 }
@@ -598,6 +598,11 @@ h5, h3, h4 {
 	text-decoration: underline;
 	margin-bottom: 20px;
 }
+.conteiner-contacts {
+	display: flex;
+	flex-direction: column;
+}
+
 .footer {
 	background: #030308;
 	width: 100%;
