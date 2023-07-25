@@ -2,200 +2,387 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="style.css">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CV</title>
+    <title>Library</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" type="image/x-icon" href="./favicon.ico">
 </head>
 <body>
-    <div class="container-background">
+    <div class="box">
     <header class="header">
-        
+        <h1 class="section-title logo-title">
+            Brooklyn Public Library
+        </h1>
+        <div class="nav-conteiner">
         <nav class="nav">
-            <div class="logo-header">
-                <a class="logo-header" href="#Nipadistova">Nipadistova</a>
-            </div>
             <ul class="nav-list">
-              <li class="nav-item"><a href="#About" class="nav-link">About Me</a></li>
-              <li class="nav-item"><a href="#Skills" class="nav-link">Skills</a></li>
-              <li class="nav-item"><a href="#Education" class="nav-link">Education</a></li>
-              <li class="nav-item"><a href="#Projects" class="nav-link">Projects</a></li>
-              <li class="nav-item"><a href="#Code" class="nav-link">Code</a></li>
-              <li class="nav-item"><a href="#Contacts" class="nav-link">Contacts</a></li>
-            </ul>
-          </nav>
-          
+                <li class="nav-item"><a href="#About" class="nav-link">About</a></li>
+                <li class="nav-item"><a href="#Favorites" class="nav-link">Favorites</a></li>
+                <li class="nav-item"><a href="#Coffee_shop" class="nav-link">Coffee shop</a></li>
+                <li class="nav-item"><a href="#Contacts" class="nav-link">Contacts</a></li>
+                <li class="nav-item"><a href="#Library_Card" class="nav-link">Library Card</a></li>
+              </ul>
+        </nav>
+        <img src="./assets/icon_profile.png" alt="icon" class="section-title-icon">
+        </div>
     </header>
 
-    <main class="main">
-        <div class="СV">
-            <div class="header-box">
-            <div class="header-logo">
-                <a class="logo_button1" href="#">Js</a>
-                <a class="logo_button" href="#">HTML</a>
-                <a class="logo_button2" href="#">CSS</a>
-                <img src="./icon/ilesco_logo_neon.svg" width="480" height="480" alt="logo">
-                <a class="logo_button3" href="#">Figma</a>
-                <a class="logo_button4" href="#">UI/UX</a>
-                <a class="logo_button5" href="#">Ai</a>
-            </div>
-            <div class="header-container">
-                <div class="header-name">
-                    <h1>Hi! I'm Irina Nipadistova</h1>
-                    <h2>Junior Software Developer and Web Designer</h2>
-                </div>
-            </div>
-            </div>
-            <div class="box">
-            
-            <section>
-            <div class="conteiner">
 
-                <div class="myself" id="About">
-                    <h5>About Myself</h5>
-                    <p>After graduating from the Belarusian National Technical University with a master's degree, I worked as an engineer for a long time. But I realized that this field of activity did not bring me pleasure. Then I got interested in graphics and worked as a designer (printing), web-designer. Now I continue to study web design and web development, as well as studying the possibilities of artificial intelligence in creating graphics.</p>
-                </div>
-                
+    <main class="main">
+        <section class="section section-welcome" id="Welcome">
+            <div class="text-welcome">
+                <p>Welcome<br>to the Brooklyn <br>Library</p>
             </div>
-            </section>
-            <section>
-                <div class="conteiner">
-                <div class="skills" id="Skills">
-                    <h3>Skills</h3>
-                    <ul>
-                        <li>Javascript</li>
-                        <li>HTML</li>
-                        <li>CSS</li>
-                        <li>Figma</li>
-                        <li>VS Code</li>
-                        <li>Ai</li>
-                        <li>Midjourney</li>
-                    </ul>
-                </div>
-            </div>
-            </section>
-            <section>
-                <div class="conteiner">
+
+        </section>
+
+        <section class="section-about" id="About">
             
-            <div class="education" id="Education">
-                <h3>Education and courses</h3>
+            <h2 class="section-title">About</h2>
+            <div class="underline_title_box">
+            <div class="underline_title"></div>
+            </div>
+            <p>The Brooklyn Library is a free workspace, a large number of books and a cozy coffee shop inside </p>
+            <div class="picture-about">
+                
+                    <img class="picture" id="image1" src="assets/image1.jpg" alt="image1">
+                    <img class="picture" id="image2" src="assets/image2.jpg" alt="image2">
+                    <img class="picture" id="image3" src="assets/image3.jpg" alt="image3">
+                    <img class="picture2" id="image4" src="assets/image4.jpg" alt="image4">
+                    <img class="picture2" id="image5" src="assets/image5.jpg" alt="image5">
+            </div>
+            <div class="circle">
+                <button class="carousel">
+                <div class="circle1"></div>
+                </button>
+                <button class="carousel">
+                <div class="circle2"></div>
+                </button>
+                <button class="carousel">
+                <div class="circle2"></div>
+                </button>
+            </div>
+            
+        </section>
+
+        <section class="section-favorites" id="Favorites">
+            <h2 class="section-title">Favorites</h2>
+            <div class="underline_title_box">
+            <div class="underline_title"></div>
+            </div>
+            <div class="text-favorites">
+            <p>The Brooklyn Library is a free workspace, a large number of books and a cozy coffee shop inside </p>
+            </div>
+            <div class="season">
+                
+                <input type="radio" id="radioButton1"
+                 name="seasons" value="winter">
+                
+                <label class="check" for="radioButton1"><b>Winter</b></label>
+                <input type="radio" id="radioButton2"
+                 name="seasons" value="spring">
+                <label class="check" for="radioButton2">Spring</label>
+            
+                <input type="radio" id="radioButton3"
+                 name="seasons" value="summer">
+                <label class="check" for="radioButton3">Summer</label>
+
+                <input type="radio" id="radioButton4"
+                 name="seasons" value="autumn">
+                <label class="check" for="radioButton4">Autumn</label>
+            </div>
+            <div class="favorites-descriptions">
+            <div class="winter">
+                <div class="favorites-card">
+                    <h3 class="favorites-card-title">Staff Picks</h3>
+                    <div class="underline_favorites_card"></div>
+                    <p class="name-book">The Book Eaters</p>
+                    <p class="author-book">By Sunyi Dean</p>
+                    <p class="summary-book">An unusual sci-fi story about a book eater woman who tries desperately to save her dangerous mind-eater son from tradition and certain death. Complete with dysfunctional family values, light Sapphic romance, and a strong, complex protagonist. Not for the faint of heart. </p>
+                    <button class="buy">Buy</button>
+                    <img class="books" id="book" src="assets/book1.jpg" alt="book">
+                </div>
+                <div class="favorites-card">
+                    <h3 class="favorites-card-title">Staff Picks</h3>
+                    <div class="underline_favorites_card"></div>
+                    <p class="name-book">Cackle</p>
+                    <p class="author-book">By Rachel Harrison</p>
+                    <p class="summary-book">Are your Halloween movies of choice The Witches of Eastwick and Practical Magic? Look no further than here - where a woman recovering from a breakup moves to a quaint town in upstate New York and befriends a beautiful witch.</p>
+                    <button class="buy">Buy</button>
+                    <img class="books" id="book" src="assets/book2.jpg" alt="book">
+                </div>
+                <div class="favorites-card">
+                    <h3 class="favorites-card-title">Staff Picks</h3>
+                    <div class="underline_favorites_card"></div>
+                    <p class="name-book">Dante: Poet of the Secular World</p>
+                    <p class="author-book">By Erich Auerbach</p>
+                    <p class="summary-book">Auerbach's engaging book places the 'Comedy' within the tradition of epic, tragedy, and philosophy in general, arguing for Dante's uniqueness as one who raised the individual and his drama of soul into something of divine significance—an inspired introduction to Dante's main themes.</p>
+                    <button class="buy">Buy</button>
+                    <img class="books" id="book" src="assets/book3.jpg" alt="book">
+                </div>
+                <div class="favorites-card">
+                    <h3 class="favorites-card-title">Staff Picks</h3>
+                    <div class="underline_favorites_card"></div>
+                    <p class="name-book">The Last Queen</p>
+                    <p class="author-book">By Clive Irving</p>
+                    <p class="summary-book">A timely and revelatory new biography of Queen Elizabeth (and her family) exploring how the Windsors have evolved and thrived as the modern world has changed around them.</p>
+                    <button disabled type="button" class="buy2">Own</button>
+                    <img class="books" id="book" src="assets/book4.jpg" alt="book">
+                </div>
+            </div>
+            <div class="spring">
+                <div class="favorites-card">
+                    <h3 class="favorites-card-title">Staff Picks</h3>
+                    <div class="underline_favorites_card"></div>
+                    <p class="name-book">The Body</p>
+                    <p class="author-book">By Stephen King</p>
+                    <p class="summary-book">Powerful novel that takes you back to a nostalgic time, exploring both the beauty and danger and loss of innocence that is youth.</p>
+                    <button class="buy">Buy</button>
+                    <img class="books" id="book" src="assets/book5.jpg" alt="book">
+                </div>
+                <div class="favorites-card">
+                    <h3 class="favorites-card-title">Staff Picks</h3>
+                    <div class="underline_favorites_card"></div>
+                    <p class="name-book">Carry: A Memoir of Survival on Stolen Land</p>
+                    <p class="author-book">By Toni Jenson</p>
+                    <p class="summary-book">This memoir about the author's relationship with gun violence feels both expansive and intimate, resulting in a lyrical indictment of the way things are.</p>
+                    <button class="buy">Buy</button>
+                    <img class="books" id="book" src="assets/book6.jpg" alt="book">
+                </div>
+                <div class="favorites-card">
+                    <h3 class="favorites-card-title">Staff Picks</h3>
+                    <div class="underline_favorites_card"></div>
+                    <p class="name-book">Days of Distraction</p>
+                    <p class="author-book">By Alexandra Chang</p>
+                    <p class="summary-book">A sardonic view of Silicon Valley culture, a meditation on race, and a journal of displacement and belonging, all in one form-defying package of spare prose.</p>
+                    <button class="buy">Buy</button>
+                    <img class="books" id="book" src="assets/book7.jpg" alt="book">
+                </div>
+                <div class="favorites-card">
+                    <h3 class="favorites-card-title">Staff Picks</h3>
+                    <div class="underline_favorites_card"></div>
+                    <p class="name-book">Dominicana</p>
+                    <p class="author-book">By Angie Cruz</p>
+                    <p class="summary-book">A fascinating story of a teenage girl who marries a man twice her age with the promise to bring her to America. Her marriage is an opportunity for her family to eventually immigrate. For fans of Isabel Allende and Julia Alvarez.</p>
+                    <button class="buy">Buy</button>
+                    <img class="books" id="book" src="assets/book8.jpg" alt="book">
+                </div>
+            </div>
+            <div class="summer">
+                <div class="favorites-card">
+                    <h3 class="favorites-card-title">Staff Picks</h3>
+                    <div class="underline_favorites_card"></div>
+                    <p class="name-book">Crude: A Memoir</p>
+                    <p class="author-book">By Pablo Fajardo & ​​Sophie Tardy-Joubert</p>
+                    <p class="summary-book">Drawing and color by Damien Roudeau | This book illustrates the struggles of a group of indigenous Ecuadoreans as they try to sue the ChevronTexaco company for damage their oil fields did to the Amazon and her people</p>
+                    <button class="buy">Buy</button>
+                    <img class="books" id="book" src="assets/book9.jpg" alt="book">
+                </div>
+                <div class="favorites-card">
+                    <h3 class="favorites-card-title">Staff Picks</h3>
+                    <div class="underline_favorites_card"></div>
+                    <p class="name-book">Let My People Go Surfing</p>
+                    <p class="author-book">By Yvon Chouinard</p>
+                    <p class="summary-book">Chouinard—climber, businessman, environmentalist—shares tales of courage and persistence from his experience of founding and leading Patagonia, Inc. Full title: Let My People Go Surfing: The Education of a Reluctant Businessman, Including 10 More Years of Business Unusual.</p>
+                    <button class="buy">Buy</button>
+                    <img class="books" id="book" src="assets/book10.jpg" alt="book">
+                </div>
+                <div class="favorites-card">
+                    <h3 class="favorites-card-title">Staff Picks</h3>
+                    <div class="underline_favorites_card"></div>
+                    <p class="name-book">The Octopus Museum: Poems</p>
+                    <p class="author-book">By Brenda Shaughnessy</p>
+                    <p class="summary-book">This collection of bold and scathingly beautiful feminist poems imagines what comes after our current age of environmental destruction, racism, sexism, and divisive politics.</p>
+                    <button class="buy">Buy</button>
+                    <img class="books" id="book" src="assets/book11.jpg" alt="book">
+                </div>
+                <div class="favorites-card">
+                    <h3 class="favorites-card-title">Staff Picks</h3>
+                    <div class="underline_favorites_card"></div>
+                    <p class="name-book">Shark Dialogues: A Novel</p>
+                    <p class="author-book">By Kiana Davenport</p>
+                    <p class="summary-book">An epic saga of seven generations of one family encompasses the tumultuous history of Hawaii as a Hawaiian woman gathers her four granddaughters together in an erotic tale of villains and dreamers, queens and revolutionaries, lepers and healers.</p>
+                    <button class="buy">Buy</button>
+                    <img class="books" id="book" src="assets/book12.jpg" alt="book">
+                </div>
+            </div>
+            <div class="autumn">
+                <div class="favorites-card">
+                    <h3 class="favorites-card-title">Staff Picks</h3>
+                    <div class="underline_favorites_card"></div>
+                    <p class="name-book">Casual Conversation</p>
+                    <p class="author-book">By Renia White</p>
+                    <p class="summary-book">White's impressive debut collection takes readers through and beyond the concepts of conversation and the casual - both what we say to each other and what we don't, examining the possibilities around how we construct and communicate identity.</p>
+                    <button class="buy">Buy</button>
+                    <img class="books" id="book" src="assets/book13.jpg" alt="book">
+                </div>
+                <div class="favorites-card">
+                    <h3 class="favorites-card-title">Staff Picks</h3>
+                    <div class="underline_favorites_card"></div>
+                    <p class="name-book">The Great Fire</p>
+                    <p class="author-book">By Lou Ureneck</p>
+                    <p class="summary-book">The harrowing story of an ordinary American and a principled Naval officer who, horrified by the burning of Smyrna, led an extraordinary rescue effort that saved a quarter of a million refugees from the Armenian Genocide</p>
+                    <button class="buy">Buy</button>
+                    <img class="books" id="book" src="assets/book14.jpg" alt="book">
+                </div>
+                <div class="favorites-card">
+                    <h3 class="favorites-card-title">Staff Picks</h3>
+                    <div class="underline_favorites_card"></div>
+                    <p class="name-book">Rickey: The Life and Legend</p>
+                    <p class="author-book">By Howard Bryant</p>
+                    <p class="summary-book">With the fall rolling around, one can't help but think of baseball's postseason coming up! And what better way to prepare for it than reading the biography of one of the game's all-time greatest performers, the Man of Steal, Rickey Henderson?</p>
+                    <button class="buy">Buy</button>
+                    <img class="books" id="book" src="assets/book15.jpg" alt="book">
+                </div>
+                <div class="favorites-card">
+                    <h3 class="favorites-card-title">Staff Picks</h3>
+                    <div class="underline_favorites_card"></div>
+                    <p class="name-book">Slug: And Other Stories</p>
+                    <p class="author-book">By Megan Milks</p>
+                    <p class="summary-book">Exes Tegan and Sara find themselves chained together by hairballs of codependency. A father and child experience the shared trauma of giving birth to gods from their wounds.</p>
+                    <button class="buy">Buy</button>
+                    <img class="books" id="book" src="assets/book16.jpg" alt="book">
+                </div>
+            </div>
+            </div>
+        </section>
+
+        <section class="section-shop" id="Coffee_shop">
+            <h2 class="section-title">Coffee shop</h2>
+            <div class="underline_title_box">
+                <div class="underline_title"></div>
+            </div>
+            <p class="text-shop">In our library, we have of cozy coffee shop, welcoming in customers with frothy cappuccinos and friendly conversation. 
+                <a class="letter">y</a>ou can get a favorite book and read in coffee shop. Our barista to cook you best coffee, and also you can try desserts from bakery.</p>
+            <div class="shop-box">
+                <div class="shop-conteiner">
+                <div class="name-menu">Coffee & Tea </div>
+                <div class="menu">
+                    <p class="menu-text">Cold Brew Coffee</p>
+                    <div class="underline_menu"></div>
+                    <p class="cost">$3</p>
+                </div>
+                <div class="menu">
+                    <p class="menu-text">French Press Pot</p>
+                    <div class="underline_menu"></div>
+                    <p class="cost">$5</p>
+                </div>
+                <div class="menu">
+                    <p class="menu-text">Espresso</p>
+                    <div class="underline_menu"></div>
+                    <p class="cost">$2</p>
+                </div>
+                <div class="menu">
+                    <p class="menu-text">Cappuccino</p>
+                    <div class="underline_menu"></div>
+                    <p class="cost">$4</p>
+                </div>
+                <div class="menu">
+                    <p class="menu-text">Hot tea</p>
+                    <div class="underline_menu"></div>
+                    <p class="cost">$2</p>
+                </div>
+                <div class="menu">
+                    <p class="menu-text">Cold tea</p>
+                    <div class="underline_menu"></div>
+                    <p class="cost">$2</p>
+                </div>
+                </div>
+                <div class="shop-conteiner">
+                    <div class="name-menu">Desserts & Cakes </div>
+                    <div class="menu">
+                        <p >Forest Gateau</p>
+                        <div class="underline_menu"></div>
+                        <p class="cost">$16</p>
+                    </div>
+                    <div class="menu">
+                        <p >Blue Moon</p>
+                        <div class="underline_menu"></div>
+                        <p class="cost">$16</p>
+                    </div>
+                    <div class="menu">
+                        <p >Truffle Cake</p>
+                        <div class="underline_menu"></div>
+                        <p class="cost">$15</p>
+                    </div>
+                    <div class="menu">
+                        <p >Chocolate Cake</p>
+                        <div class="underline_menu"></div>
+                        <p class="cost">$18</p>
+                    </div>
+                    <div class="menu">
+                        <p >Poet’s Dream Cake</p>
+                        <div class="underline_menu"></div>
+                        <p class="cost">$16</p>
+                    </div>
+                    <div class="menu">
+                        <p >Pineapple Cake</p>
+                        <div class="underline_menu"></div>
+                        <p class="cost">$14</p>
+                    </div>
+                </div>
+            </div>
            
-                <ul>
-                    <li>Belarusian National Technical University, master's degree in metallurgy</li>
-                    <li>Academy of Postgraduate Education of BNTU, intercultural communication (English)</li>
-                    <li>pixel.one, drawing in Adobe Illustrator</li>
-                    <li>JavaScript on learnjavascript.ru (in progress)</li>
-                </ul>
+        </section>
+
+        <section class="section-contacts" id="Contacts">
+            <h2 class="section-title">Our Contacts</h2>
+            <div class="underline_title_box">
+            <div class="underline_title"></div>
             </div>
-        </div>
-            </section>
-            <section>
-                <div class="conteiner">
-                <div class="projects" id="Projects">
-                    <h3>Projects</h3>
-                    <div class="projects-conteiner">
-                    <a class="projects_button1" href="https://www.behance.net/irenenipadis1">Behance</a>
-                    <a class="projects_button" href="https://instagram.com/ilesco.web?igshid=NGExMmI2YTkyZg==">Instagram</a>
-                    <a class="projects_button1" href="https://travel-ilesco.netlify.app">Netlify</a>
+            <div class="contacts-box">
+                <div class="contacts-conteiner">
+                    <p class="contacts-text">For all Library inquiries:</p>  
+                    <div class="contacts">
+                    <p>Please call  <a href="tel:(617) 730-2370" type="tel" class="tel">(617) 730-2370</a></p>
+                    <p>For TTY service, please call <a href="tel:(617) 730-2370" type="tel" class="tel">(617) 730-2370</a></p> 
+                    <p>Putterham Library: <a href="tel:(617) 730-2385" type="tel" class="tel">(617) 730-2385</a></p>
                 </div>
+                    <p class="contacts-text">Senior Staff</p>
+                    <p>Library Director: <a href="mailto:AmandaHirst@gmail.com" class="contacts-text">Amanda Hirst</a></p>
                 </div>
+                <img class="picture" id="map" src="assets/Rectangle 4.jpg" alt="map">
             </div>
-            </section>
-            <section>
-                <div class="conteiner">
+        </section>
+
+        <section class="section-cards" id="Library_Card">
+            <h2 class="section-title">Digital Library Cards</h2>
+            <div class="underline_title_box">
+            <div class="underline_title"></div>
+            </div>
+            <div class="cards-box">
+                <div class="">
+                    <p class="form-title">Find your Library card</p>
+                    <div class="conteiner-form">
+                        <div class="form-box">
+                            <p class="text-form">Brooklyn Public Library</p>
+                            <input class="input" type="text" value="Reader's name">
+                            <input class="input" type="number" value="Card number">
+                        </div>
+                    <button class="button-form">Check the card</button>
+                    </div>
+                </div>
+                <div class="cards-conteiner">
+                    <p class="cards-text-title">Get a reader card</p>   
+                    <p class="cards-text">You will be able to see a reader card after logging into account or you can register a new account</p>
+                    <div class="button-box">
+                    <button class="button-cards">Sign Up</button>
+                    <button class="button-cards">Log in</button>
+                    </div>
+                </div>
                 
-                <div class="code" id="Code">
-                    <h3>Code example</h3>
-                <p><strong>from CODEWARS:</strong>
-                "I love Fibonacci numbers in general, but I must admit I love some more than others.
-                I would like for you to write me a function that when given a number (n) returns the n-th number in the Fibonacci Sequence.
-                For example:
-                   nthFibo(4) == 2
-                Because 2 is the 4th number in the Fibonacci Sequence.
-                For reference, the first two numbers in the Fibonacci sequence are 0 and 1, and each subsequent number is the sum of the previous two."
-                </p>
-                <pre>
-                    <code>
-                        function nthFibo(n) {
-                            if (n == 1) {
-                                return 0;
-                            }
-                            if (n == 2) {
-                                return 1;
-                            }
-                            else {
-                                return nthFibo(n-1) + nthFibo(n-2);
-                            }
-                        };
-                    </code>
-                </pre>
-                </div>
-            </div>
-            </section>
-            <section>
-                <div class="conteiner">
-                    <div class="conteiner-contacts">
-                    <h5>Contacts</h5>
-                    <ul class="contacts" id="Contacts" >
-                        
-                        <li class="contact">
-                        <div class="contact_type">
-                        <img src="./icon/letter.svg" width="25" height="25" alt="email">
-                        </div>
-                        <div class="contact_value">
-                            <a href="mailto:ilescoster@gmail.com" class="nav-link">ilescoster@gmail.com</a>
-                        </div>
-                        </li>
-                        <li class="contact">
-                        <div class="contact_type" id="contacts">
-                        <img src="./icon/Vector.svg" width="25" height="25" alt="Github">
-                        </div>
-                        <div class="contact_value">
-                            <a href="https://github.com/Ilesco" class="nav-link">Ilesco</a>
-                        </div>
-                        </li>
-                    </ul>
-                </div>
-                </div>
-            </section>
-            <section>
-            <div class="conteiner">
-            <div class="language">
-                <h4>Language</h4>
-                <p>English - Intermediate</p>
-                <p>Belorussian/Russian - Native speaker</p>
-            
-            </div>
-        </div>
-            </section>
-            </div>
-            
-        </div>
+            </div> 
+        </section>
     </main>
-    
-       
-        <a class="footer-logo" href="#Logo">
-        <img src="./icon/logo_neon.svg" width="450" height="450" alt="logo"></a>
-       
-    
-    </div>   
+
+
+
     <footer class="footer">
-        <div class="footer-container">
-            <p> © 2023 by ilesco </p>
-            <div class="footer-contact">
-                <div class="contact">
-                    <div class="contact_type">
-                    <img src="./icon/ant-design_github-filled.svg" width="35" height="35" alt="Github">
-                    </div>
-                    <div class="contact_footer">
-                        <a href="https://github.com/Ilesco">Ilesco</a>
-                    </div>
-                </div>
-            </div>
-            
-            <a href="https://rs.school/js/">
-            <img src="./icon/rs_school_js1.svg" alt="logo_rss" width="116" height="43"></a>
-        </div>
+
     </footer>
+    </div>
+
+
+    <script src="./index.js"></script>
 </body>
 </html>
